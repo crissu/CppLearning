@@ -164,49 +164,4 @@ using namespace std;
 //     return 0;
 // }
 
-class stuff
-{
-    string name;
-    int age;
 
-public:
-    stuff(string n, int a) : name(n), age(a)
-    {
-        cout << "构造函数  " << name << age << endl;
-    }
-
-    string getName()
-    {
-        return name;
-    }
-
-    int getAge()
-    {
-        return age;
-    }
-
-    stuff &operator=(stuff &x);
-    stuff(stuff &x) : name(x.name), age(20)
-    {
-        cout << "拷贝构造函数  " << name << age << endl;
-    }
-};
-
-stuff &stuff::operator=(stuff &x)
-{
-    age = x.age;
-    cout << "赋值运算符  " << name << age << endl;
-    return *this;
-}
-
-int main(){
-    stuff st("c语言", 3);
-    stuff st1("c++语言", 2);
-    st1 = st;
-    stuff st2 = st;
-    cout << st.getName() << st.getAge() << endl;
-    cout << st1.getName() << st1.getAge() << endl;
-    cout << st2.getName() << st2.getAge() << endl;
-
-    return 0;
-}

@@ -1,11 +1,10 @@
+/******************
+ * C++继承
+ * ***************/
 #include <iostream>
 #include <string>
 
 using namespace std;
-
-/******************
- * C++继承
- * ***************/
 
 class CBase
 {
@@ -107,9 +106,6 @@ protected:
 //     return 0;
 // }
 
-
-
-
 // class CDerive : protected CBase
 // { //用“private”指定私有继承
 // public:
@@ -150,13 +146,3 @@ protected:
 //     //d.setAge(20);        //编译出错
 //     return 0;
 // }
-
-
-
-
-
-
-
-
-
-

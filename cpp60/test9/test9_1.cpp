@@ -1,12 +1,12 @@
-#include <iostream>
-#include <string>
-using namespace std;
-
 /******************
  * C++派生类中调用基类成员
  * 
  * 基类和派生类具有相同成员时
  * ***************/
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 class CBase
 {
@@ -39,19 +39,17 @@ public:
     }
 };
 
-int main(){
+int main()
+{
     CDerive d("Crissu", 25, "0001");
     d.show();
-    cout<<"----------"<<endl;
+    cout << "----------" << endl;
 
     d.CBase::show();
-    cout<<"----------"<<endl;
+    cout << "----------" << endl;
 
     CBase b("sujiajie", "0002");
     b.show();
 
     return 0;
 }
-
-
-

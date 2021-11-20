@@ -1,10 +1,9 @@
-#include <iostream>
-
-using namespace std;
-
 /******************
  * C++类与对象
  * ***************/
+#include <iostream>
+
+using namespace std;
 
 // 构造函数和析构函数
 

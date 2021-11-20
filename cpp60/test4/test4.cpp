@@ -1,10 +1,9 @@
-#include <iostream>
-
-using namespace std;
-
 /******************
  * C++引用
  * ***************/
+#include <iostream>
+
+using namespace std;
 
 // 独立引用
 // int main() {

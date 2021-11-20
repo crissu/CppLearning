@@ -1,10 +1,9 @@
-#include<iostream>
-
-using namespace std;
-
 /******************
  * C++缺省参数和函数重载
  * ***************/
+#include<iostream>
+
+using namespace std;
 
 // 参数的缺省值
 // #include <iostream>

@@ -1,9 +1,9 @@
-#include<iostream>
-
-using namespace std;
 /******************
  * C++名字空间
  * ***************/
+#include<iostream>
+
+using namespace std;
 
 // 名字空间的定义
 

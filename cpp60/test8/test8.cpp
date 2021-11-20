@@ -1,10 +1,10 @@
-#include <iostream>
-#include <string>
-using namespace std;
-
 /******************
  * C++基类与派生类的构造函数
  * ***************/
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 // 缺省构造函数的调用关系
 // class CBase{
@@ -126,7 +126,6 @@ using namespace std;
 //     return 0;
 // }
 
-
 // 多重继承的参数传递
 class CBase1
 {
@@ -158,13 +157,17 @@ public:
     }
 };
 
-class CDerive : public CBase1, public CBase2 {
+class CDerive : public CBase1, public CBase2
+{
     string id;
+
 public:
-    CDerive(string s1, int a, string s2) : CBase1(s1), CBase2(a), id(s2) {
+    CDerive(string s1, int a, string s2) : CBase1(s1), CBase2(a), id(s2)
+    {
         cout << "DERIVE: " << id << endl;
     }
-    ~CDerive() {
+    ~CDerive()
+    {
         cout << "~DERIVE" << endl;
     }
 };

@@ -1,3 +1,7 @@
+/******************
+ * C++与C语言的区别
+ * ***************/
+
 #include<iostream>
 
 using namespace std;

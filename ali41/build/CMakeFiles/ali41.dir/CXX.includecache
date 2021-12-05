@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/crissu/codeplace/cpp_projects/CppLearning/ali41/test.cpp
+iostream
+-
+math.h
+-
+ctime
+-
+cstdlib
+-
+cstring
+-
+fstream
+-
+exception
+-
+vector
+-
+string
+-
+stdexcept
+-
+csignal
+-
+unistd.h
+-
+

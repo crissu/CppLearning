@@ -15,4 +15,10 @@ iostream
 -
 test.h
 /home/crissu/codeplace/cpp_projects/CppLearning/cmake_test/src/test.h
+math.h
+-
+
+/home/crissu/codeplace/cpp_projects/CppLearning/cmake_test/src/test.cpp
+test.h
+/home/crissu/codeplace/cpp_projects/CppLearning/cmake_test/src/test.h
 

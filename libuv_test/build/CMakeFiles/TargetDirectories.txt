@@ -1,0 +1,3 @@
+/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles/rebuild_cache.dir
+/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles/uvcat.dir
+/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles/edit_cache.dir

@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named uvcat
+# Target rules for targets named tcp-echo-server
 
 # Build rule for target.
-uvcat: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uvcat
-.PHONY : uvcat
+tcp-echo-server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp-echo-server
+.PHONY : tcp-echo-server
 
 # fast build rule for target.
-uvcat/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/build
-.PHONY : uvcat/fast
+tcp-echo-server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/build
+.PHONY : tcp-echo-server/fast
 
-src/uvcat.o: src/uvcat.cpp.o
-.PHONY : src/uvcat.o
+src/tcp-echo-server.o: src/tcp-echo-server.cpp.o
+.PHONY : src/tcp-echo-server.o
 
 # target to build an object file
-src/uvcat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/src/uvcat.cpp.o
-.PHONY : src/uvcat.cpp.o
+src/tcp-echo-server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/src/tcp-echo-server.cpp.o
+.PHONY : src/tcp-echo-server.cpp.o
 
-src/uvcat.i: src/uvcat.cpp.i
-.PHONY : src/uvcat.i
+src/tcp-echo-server.i: src/tcp-echo-server.cpp.i
+.PHONY : src/tcp-echo-server.i
 
 # target to preprocess a source file
-src/uvcat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/src/uvcat.cpp.i
-.PHONY : src/uvcat.cpp.i
+src/tcp-echo-server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/src/tcp-echo-server.cpp.i
+.PHONY : src/tcp-echo-server.cpp.i
 
-src/uvcat.s: src/uvcat.cpp.s
-.PHONY : src/uvcat.s
+src/tcp-echo-server.s: src/tcp-echo-server.cpp.s
+.PHONY : src/tcp-echo-server.s
 
 # target to generate assembly for a file
-src/uvcat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/src/uvcat.cpp.s
-.PHONY : src/uvcat.cpp.s
+src/tcp-echo-server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/src/tcp-echo-server.cpp.s
+.PHONY : src/tcp-echo-server.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... uvcat"
-	@echo "... src/uvcat.o"
-	@echo "... src/uvcat.i"
-	@echo "... src/uvcat.s"
+	@echo "... tcp-echo-server"
+	@echo "... src/tcp-echo-server.o"
+	@echo "... src/tcp-echo-server.i"
+	@echo "... src/tcp-echo-server.s"
 .PHONY : help
 
 

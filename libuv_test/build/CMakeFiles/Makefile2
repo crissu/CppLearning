@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/bu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/uvcat.dir/all
+all: CMakeFiles/tcp-echo-server.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/uvcat.dir/clean
+clean: CMakeFiles/tcp-echo-server.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/uvcat.dir
+# Target rules for target CMakeFiles/tcp-echo-server.dir
 
 # All Build rule for target.
-CMakeFiles/uvcat.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=1,2 "Built target uvcat"
-.PHONY : CMakeFiles/uvcat.dir/all
+CMakeFiles/tcp-echo-server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=1,2 "Built target tcp-echo-server"
+.PHONY : CMakeFiles/tcp-echo-server.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/uvcat.dir/rule: cmake_check_build_system
+CMakeFiles/tcp-echo-server.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uvcat.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tcp-echo-server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles 0
-.PHONY : CMakeFiles/uvcat.dir/rule
+.PHONY : CMakeFiles/tcp-echo-server.dir/rule
 
 # Convenience name for target.
-uvcat: CMakeFiles/uvcat.dir/rule
-.PHONY : uvcat
+tcp-echo-server: CMakeFiles/tcp-echo-server.dir/rule
+.PHONY : tcp-echo-server
 
 # clean rule for target.
-CMakeFiles/uvcat.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvcat.dir/build.make CMakeFiles/uvcat.dir/clean
-.PHONY : CMakeFiles/uvcat.dir/clean
+CMakeFiles/tcp-echo-server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/clean
+.PHONY : CMakeFiles/tcp-echo-server.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

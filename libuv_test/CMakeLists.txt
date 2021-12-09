@@ -17,10 +17,15 @@ aux_source_directory(./src SrcFiles)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # 设置输出名, 方便修改
-set(EXECUTABLE_FILE_NAME uvcat)
+set(EXECUTABLE_FILE_NAME tcp-echo-server)
+# idle-basic 空转
+# uvcat  模拟 cat 读取
+# uvtee  流式读取输出
+# onchange  监控文件变化
+# tcp-echo-server  tcp 服务端
 
 # 生成可执行的文件
-add_executable(${EXECUTABLE_FILE_NAME} ./src/uvcat.cpp)
+add_executable(${EXECUTABLE_FILE_NAME} ./src/${EXECUTABLE_FILE_NAME}.cpp)
 
 # 链接 ${PROJECT_NAME}
 target_link_libraries (${EXECUTABLE_FILE_NAME} -luv )   #libuv.a

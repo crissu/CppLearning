@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/queue-cancel.dir/src/queue-cancel.cpp.o -o ../bin/queue-cancel   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib  -Wl,-rpath,/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib -luv 

@@ -43,5 +43,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/tcp-echo-server.dir/DependInfo.cmake"
+  "CMakeFiles/interfaces.dir/DependInfo.cmake"
   )

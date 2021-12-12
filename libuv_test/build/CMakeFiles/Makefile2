@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/bu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/tcp-echo-server.dir/all
+all: CMakeFiles/interfaces.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/tcp-echo-server.dir/clean
+clean: CMakeFiles/interfaces.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tcp-echo-server.dir
+# Target rules for target CMakeFiles/interfaces.dir
 
 # All Build rule for target.
-CMakeFiles/tcp-echo-server.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=1,2 "Built target tcp-echo-server"
-.PHONY : CMakeFiles/tcp-echo-server.dir/all
+CMakeFiles/interfaces.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interfaces.dir/build.make CMakeFiles/interfaces.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interfaces.dir/build.make CMakeFiles/interfaces.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=1,2 "Built target interfaces"
+.PHONY : CMakeFiles/interfaces.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tcp-echo-server.dir/rule: cmake_check_build_system
+CMakeFiles/interfaces.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tcp-echo-server.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/interfaces.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles 0
-.PHONY : CMakeFiles/tcp-echo-server.dir/rule
+.PHONY : CMakeFiles/interfaces.dir/rule
 
 # Convenience name for target.
-tcp-echo-server: CMakeFiles/tcp-echo-server.dir/rule
-.PHONY : tcp-echo-server
+interfaces: CMakeFiles/interfaces.dir/rule
+.PHONY : interfaces
 
 # clean rule for target.
-CMakeFiles/tcp-echo-server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/clean
-.PHONY : CMakeFiles/tcp-echo-server.dir/clean
+CMakeFiles/interfaces.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interfaces.dir/build.make CMakeFiles/interfaces.dir/clean
+.PHONY : CMakeFiles/interfaces.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tcp-echo-server
+# Target rules for targets named interfaces
 
 # Build rule for target.
-tcp-echo-server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp-echo-server
-.PHONY : tcp-echo-server
+interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interfaces
+.PHONY : interfaces
 
 # fast build rule for target.
-tcp-echo-server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/build
-.PHONY : tcp-echo-server/fast
+interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interfaces.dir/build.make CMakeFiles/interfaces.dir/build
+.PHONY : interfaces/fast
 
-src/tcp-echo-server.o: src/tcp-echo-server.cpp.o
-.PHONY : src/tcp-echo-server.o
+src/interfaces.o: src/interfaces.cpp.o
+.PHONY : src/interfaces.o
 
 # target to build an object file
-src/tcp-echo-server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/src/tcp-echo-server.cpp.o
-.PHONY : src/tcp-echo-server.cpp.o
+src/interfaces.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interfaces.dir/build.make CMakeFiles/interfaces.dir/src/interfaces.cpp.o
+.PHONY : src/interfaces.cpp.o
 
-src/tcp-echo-server.i: src/tcp-echo-server.cpp.i
-.PHONY : src/tcp-echo-server.i
+src/interfaces.i: src/interfaces.cpp.i
+.PHONY : src/interfaces.i
 
 # target to preprocess a source file
-src/tcp-echo-server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/src/tcp-echo-server.cpp.i
-.PHONY : src/tcp-echo-server.cpp.i
+src/interfaces.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interfaces.dir/build.make CMakeFiles/interfaces.dir/src/interfaces.cpp.i
+.PHONY : src/interfaces.cpp.i
 
-src/tcp-echo-server.s: src/tcp-echo-server.cpp.s
-.PHONY : src/tcp-echo-server.s
+src/interfaces.s: src/interfaces.cpp.s
+.PHONY : src/interfaces.s
 
 # target to generate assembly for a file
-src/tcp-echo-server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tcp-echo-server.dir/build.make CMakeFiles/tcp-echo-server.dir/src/tcp-echo-server.cpp.s
-.PHONY : src/tcp-echo-server.cpp.s
+src/interfaces.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interfaces.dir/build.make CMakeFiles/interfaces.dir/src/interfaces.cpp.s
+.PHONY : src/interfaces.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... tcp-echo-server"
-	@echo "... src/tcp-echo-server.o"
-	@echo "... src/tcp-echo-server.i"
-	@echo "... src/tcp-echo-server.s"
+	@echo "... interfaces"
+	@echo "... src/interfaces.o"
+	@echo "... src/interfaces.i"
+	@echo "... src/interfaces.s"
 .PHONY : help
 
 

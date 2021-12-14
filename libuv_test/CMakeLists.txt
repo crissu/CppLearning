@@ -17,7 +17,7 @@ aux_source_directory(./src SrcFiles)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # 设置输出名, 方便修改
-set(EXECUTABLE_FILE_NAME progress)
+set(EXECUTABLE_FILE_NAME uvstop)
 
 # 生成可执行的文件
 add_executable(${EXECUTABLE_FILE_NAME} ./src/${EXECUTABLE_FILE_NAME}.cpp)

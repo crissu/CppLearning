@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/src/cat_test.cpp.o"
-  "CMakeFiles/test.dir/src/cat_test.cpp.o.d"
-  "CMakeFiles/test.dir/src/main.cpp.o"
-  "CMakeFiles/test.dir/src/main.cpp.o.d"
-  "libuv_test/bin/test"
-  "libuv_test/bin/test.pdb"
+  "../bin/test"
+  "../bin/test.pdb"
+  "CMakeFiles/test.dir/src/proc-streams/test.cpp.o"
+  "CMakeFiles/test.dir/src/proc-streams/test.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named progress
+# Target rules for targets named uvstop
 
 # Build rule for target.
-progress: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 progress
-.PHONY : progress
+uvstop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uvstop
+.PHONY : uvstop
 
 # fast build rule for target.
-progress/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/build
-.PHONY : progress/fast
+uvstop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/build
+.PHONY : uvstop/fast
 
-src/progress.o: src/progress.cpp.o
-.PHONY : src/progress.o
+src/uvstop.o: src/uvstop.cpp.o
+.PHONY : src/uvstop.o
 
 # target to build an object file
-src/progress.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/src/progress.cpp.o
-.PHONY : src/progress.cpp.o
+src/uvstop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/src/uvstop.cpp.o
+.PHONY : src/uvstop.cpp.o
 
-src/progress.i: src/progress.cpp.i
-.PHONY : src/progress.i
+src/uvstop.i: src/uvstop.cpp.i
+.PHONY : src/uvstop.i
 
 # target to preprocess a source file
-src/progress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/src/progress.cpp.i
-.PHONY : src/progress.cpp.i
+src/uvstop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/src/uvstop.cpp.i
+.PHONY : src/uvstop.cpp.i
 
-src/progress.s: src/progress.cpp.s
-.PHONY : src/progress.s
+src/uvstop.s: src/uvstop.cpp.s
+.PHONY : src/uvstop.s
 
 # target to generate assembly for a file
-src/progress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/progress.dir/build.make CMakeFiles/progress.dir/src/progress.cpp.s
-.PHONY : src/progress.cpp.s
+src/uvstop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/src/uvstop.cpp.s
+.PHONY : src/uvstop.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... progress"
-	@echo "... src/progress.o"
-	@echo "... src/progress.i"
-	@echo "... src/progress.s"
+	@echo "... uvstop"
+	@echo "... src/uvstop.o"
+	@echo "... src/uvstop.i"
+	@echo "... src/uvstop.s"
 .PHONY : help
 
 

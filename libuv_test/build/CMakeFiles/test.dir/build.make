@@ -69,51 +69,35 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/src/cat_test.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/cat_test.cpp.o: ../src/cat_test.cpp
-CMakeFiles/test.dir/src/cat_test.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/src/cat_test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/cat_test.cpp.o -MF CMakeFiles/test.dir/src/cat_test.cpp.o.d -o CMakeFiles/test.dir/src/cat_test.cpp.o -c /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/cat_test.cpp
+CMakeFiles/test.dir/src/proc-streams/test.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/proc-streams/test.cpp.o: ../src/proc-streams/test.cpp
+CMakeFiles/test.dir/src/proc-streams/test.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/src/proc-streams/test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/proc-streams/test.cpp.o -MF CMakeFiles/test.dir/src/proc-streams/test.cpp.o.d -o CMakeFiles/test.dir/src/proc-streams/test.cpp.o -c /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/proc-streams/test.cpp
 
-CMakeFiles/test.dir/src/cat_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/cat_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/cat_test.cpp > CMakeFiles/test.dir/src/cat_test.cpp.i
+CMakeFiles/test.dir/src/proc-streams/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/proc-streams/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/proc-streams/test.cpp > CMakeFiles/test.dir/src/proc-streams/test.cpp.i
 
-CMakeFiles/test.dir/src/cat_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/cat_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/cat_test.cpp -o CMakeFiles/test.dir/src/cat_test.cpp.s
-
-CMakeFiles/test.dir/src/main.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/test.dir/src/main.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/main.cpp.o -MF CMakeFiles/test.dir/src/main.cpp.o.d -o CMakeFiles/test.dir/src/main.cpp.o -c /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/main.cpp
-
-CMakeFiles/test.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/main.cpp > CMakeFiles/test.dir/src/main.cpp.i
-
-CMakeFiles/test.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/main.cpp -o CMakeFiles/test.dir/src/main.cpp.s
+CMakeFiles/test.dir/src/proc-streams/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/proc-streams/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/proc-streams/test.cpp -o CMakeFiles/test.dir/src/proc-streams/test.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/src/cat_test.cpp.o" \
-"CMakeFiles/test.dir/src/main.cpp.o"
+"CMakeFiles/test.dir/src/proc-streams/test.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-libuv_test/bin/test: CMakeFiles/test.dir/src/cat_test.cpp.o
-libuv_test/bin/test: CMakeFiles/test.dir/src/main.cpp.o
-libuv_test/bin/test: CMakeFiles/test.dir/build.make
-libuv_test/bin/test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable libuv_test/bin/test"
+../bin/test: CMakeFiles/test.dir/src/proc-streams/test.cpp.o
+../bin/test: CMakeFiles/test.dir/build.make
+../bin/test: CMakeFiles/test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/test.dir/build: libuv_test/bin/test
+CMakeFiles/test.dir/build: ../bin/test
 .PHONY : CMakeFiles/test.dir/build
 
 CMakeFiles/test.dir/clean:

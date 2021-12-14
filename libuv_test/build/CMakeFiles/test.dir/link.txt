@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/test.dir/src/cat_test.cpp.o CMakeFiles/test.dir/src/main.cpp.o -o libuv_test/bin/test   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib  -Wl,-rpath,/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib -luv 
+/usr/bin/c++ CMakeFiles/test.dir/src/proc-streams/test.cpp.o -o ../bin/test   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib  -Wl,-rpath,/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib -luv 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/proc-streams/main.cpp" "CMakeFiles/main.dir/src/proc-streams/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/proc-streams/main.cpp.o.d"
+  "/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/src/plugin/main.cpp" "CMakeFiles/main.dir/src/plugin/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/plugin/main.cpp.o.d"
   )
 
 # Targets to which this target links.

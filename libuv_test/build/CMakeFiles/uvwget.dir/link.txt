@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/uvwget.dir/src/uvwget.cpp.o -o ../bin/uvwget  -Wl,-rpath,/usr/local/lib -luv /usr/local/lib/libcurl.so 

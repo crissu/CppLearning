@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named uvstop
+# Target rules for targets named tty-gravity
 
 # Build rule for target.
-uvstop: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uvstop
-.PHONY : uvstop
+tty-gravity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tty-gravity
+.PHONY : tty-gravity
 
 # fast build rule for target.
-uvstop/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/build
-.PHONY : uvstop/fast
+tty-gravity/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tty-gravity.dir/build.make CMakeFiles/tty-gravity.dir/build
+.PHONY : tty-gravity/fast
 
-src/uvstop.o: src/uvstop.cpp.o
-.PHONY : src/uvstop.o
+src/tty-gravity.o: src/tty-gravity.cpp.o
+.PHONY : src/tty-gravity.o
 
 # target to build an object file
-src/uvstop.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/src/uvstop.cpp.o
-.PHONY : src/uvstop.cpp.o
+src/tty-gravity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tty-gravity.dir/build.make CMakeFiles/tty-gravity.dir/src/tty-gravity.cpp.o
+.PHONY : src/tty-gravity.cpp.o
 
-src/uvstop.i: src/uvstop.cpp.i
-.PHONY : src/uvstop.i
+src/tty-gravity.i: src/tty-gravity.cpp.i
+.PHONY : src/tty-gravity.i
 
 # target to preprocess a source file
-src/uvstop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/src/uvstop.cpp.i
-.PHONY : src/uvstop.cpp.i
+src/tty-gravity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tty-gravity.dir/build.make CMakeFiles/tty-gravity.dir/src/tty-gravity.cpp.i
+.PHONY : src/tty-gravity.cpp.i
 
-src/uvstop.s: src/uvstop.cpp.s
-.PHONY : src/uvstop.s
+src/tty-gravity.s: src/tty-gravity.cpp.s
+.PHONY : src/tty-gravity.s
 
 # target to generate assembly for a file
-src/uvstop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/src/uvstop.cpp.s
-.PHONY : src/uvstop.cpp.s
+src/tty-gravity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tty-gravity.dir/build.make CMakeFiles/tty-gravity.dir/src/tty-gravity.cpp.s
+.PHONY : src/tty-gravity.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... uvstop"
-	@echo "... src/uvstop.o"
-	@echo "... src/uvstop.i"
-	@echo "... src/uvstop.s"
+	@echo "... tty-gravity"
+	@echo "... src/tty-gravity.o"
+	@echo "... src/tty-gravity.i"
+	@echo "... src/tty-gravity.s"
 .PHONY : help
 
 

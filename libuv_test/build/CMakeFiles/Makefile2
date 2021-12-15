@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/bu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/uvstop.dir/all
+all: CMakeFiles/tty-gravity.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/uvstop.dir/clean
+clean: CMakeFiles/tty-gravity.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/uvstop.dir
+# Target rules for target CMakeFiles/tty-gravity.dir
 
 # All Build rule for target.
-CMakeFiles/uvstop.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=1,2 "Built target uvstop"
-.PHONY : CMakeFiles/uvstop.dir/all
+CMakeFiles/tty-gravity.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tty-gravity.dir/build.make CMakeFiles/tty-gravity.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tty-gravity.dir/build.make CMakeFiles/tty-gravity.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles --progress-num=1,2 "Built target tty-gravity"
+.PHONY : CMakeFiles/tty-gravity.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/uvstop.dir/rule: cmake_check_build_system
+CMakeFiles/tty-gravity.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uvstop.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tty-gravity.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/build/CMakeFiles 0
-.PHONY : CMakeFiles/uvstop.dir/rule
+.PHONY : CMakeFiles/tty-gravity.dir/rule
 
 # Convenience name for target.
-uvstop: CMakeFiles/uvstop.dir/rule
-.PHONY : uvstop
+tty-gravity: CMakeFiles/tty-gravity.dir/rule
+.PHONY : tty-gravity
 
 # clean rule for target.
-CMakeFiles/uvstop.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/uvstop.dir/build.make CMakeFiles/uvstop.dir/clean
-.PHONY : CMakeFiles/uvstop.dir/clean
+CMakeFiles/tty-gravity.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tty-gravity.dir/build.make CMakeFiles/tty-gravity.dir/clean
+.PHONY : CMakeFiles/tty-gravity.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

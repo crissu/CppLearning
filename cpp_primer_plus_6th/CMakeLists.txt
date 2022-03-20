@@ -18,29 +18,15 @@ include_directories(
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # 设置输出名, 方便修改
-set(EXECUTABLE_FILE_NAME tty-gravity)
-
-# 设置libcurl 库的位置
-find_package(CURL REQUIRED)
-if (CURL_FOUND)
-    include_directories(${CURL_INCLUDE_DIRS})
-    set(LIB_LIST ${LIB_LIST} ${CURL_LIBRARIES})
-endif (CURL_FOUND)
+set(EXECUTABLE_FILE_NAME 3.1)
 
 # 生成可执行的文件
 add_executable(${EXECUTABLE_FILE_NAME} ./src/${EXECUTABLE_FILE_NAME}.cpp)
 
 # 打印参数
 message("\n---打印参数---\n")
-message("CURL_LIBRARIES:\t\t" ${CURL_LIBRARIES})
-message("LIB_LIST:\t\t" ${LIB_LIST})
-message("CURL_INCLUDE_DIRS:\t" ${CURL_INCLUDE_DIRS})
-message("EXECUTABLE_OUTPUT_PATH:\t" ${EXECUTABLE_OUTPUT_PATH})
 message("EXECUTABLE_FILE_NAME:\t" ${EXECUTABLE_FILE_NAME})
-
 message("\n---end---\n")
-# 链接 ${PROJECT_NAME}
-target_link_libraries (${EXECUTABLE_FILE_NAME} -luv ${LIB_LIST})   #libuv.a
 
 
 

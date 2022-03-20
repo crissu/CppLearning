@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/3.1.dir/src/3.1.cpp.o -o ../bin/3.1   -L/home/crissu/codeplace/cpp_projects/CppLearning/cpp_primer_plus_6th/usr/local/lib 

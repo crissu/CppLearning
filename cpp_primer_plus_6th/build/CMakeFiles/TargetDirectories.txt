@@ -1,3 +1,0 @@
-/home/crissu/codeplace/cpp_projects/CppLearning/cpp_primer_plus_6th/build/CMakeFiles/rebuild_cache.dir
-/home/crissu/codeplace/cpp_projects/CppLearning/cpp_primer_plus_6th/build/CMakeFiles/3.1.dir
-/home/crissu/codeplace/cpp_projects/CppLearning/cpp_primer_plus_6th/build/CMakeFiles/edit_cache.dir

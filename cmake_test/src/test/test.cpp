@@ -1,5 +1,6 @@
 //test.cpp
 #include"test.h"
+#include<iostream>
 
 void myprint()
 {

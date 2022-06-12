@@ -3,7 +3,7 @@
 #define _TEST_H_
 
 #include<iostream>
-using namespace std;
+// using namespace std;
 void myprint();
 
 #endif

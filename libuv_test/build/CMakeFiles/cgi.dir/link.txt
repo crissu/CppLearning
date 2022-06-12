@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/cgi.dir/src/cgi/cgi.cpp.o -o ../bin/cgi   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib  -Wl,-rpath,/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib -luv 

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/queue-work.dir/src/queue-work.cpp.o -o ../bin/queue-work   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib  -Wl,-rpath,/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib -luv 

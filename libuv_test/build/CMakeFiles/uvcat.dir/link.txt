@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/uvcat.dir/src/uvcat.cpp.o -o ../bin/uvcat   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib 

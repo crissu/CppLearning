@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/detach.dir/src/detach.cpp.o -o ../bin/detach   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib  -Wl,-rpath,/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib -luv 

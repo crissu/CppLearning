@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/uvstop.dir/src/uvstop.cpp.o -o ../bin/uvstop   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib  -Wl,-rpath,/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib -luv 

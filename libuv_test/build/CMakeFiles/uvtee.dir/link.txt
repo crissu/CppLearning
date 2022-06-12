@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/uvtee.dir/src/uvtee.cpp.o -o ../bin/uvtee   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib 

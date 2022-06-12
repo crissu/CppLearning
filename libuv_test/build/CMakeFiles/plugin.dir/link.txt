@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/plugin.dir/src/plugin/main.cpp.o -o ../bin/plugin   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib  -Wl,-rpath,/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib:/usr/local/lib -luv /usr/local/lib/libcurl.so 

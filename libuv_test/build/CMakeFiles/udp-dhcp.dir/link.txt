@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/udp-dhcp.dir/src/udp-dhcp.cpp.o -o ../bin/udp-dhcp   -L/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib  -Wl,-rpath,/home/crissu/codeplace/cpp_projects/CppLearning/libuv_test/usr/local/lib -luv 

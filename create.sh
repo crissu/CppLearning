@@ -7,3 +7,4 @@ cd ../
 mkdir -p $foldername
 cp simple-cpp-project/* $foldername -r
 rm -rf simple-cpp-project
+echo "project created done!!!"
